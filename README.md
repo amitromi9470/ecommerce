@@ -56,39 +56,6 @@ Run tests with coverage:
 npm test -- --coverage
 ```
 
-## 📁 Project Structure
-
-```
-Project/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/          # React components
-│   │   ├── Header.js
-│   │   ├── ProductCard.js
-│   │   ├── ProductList.js
-│   │   └── Cart.js
-│   ├── redux/              # Redux state management
-│   │   ├── store.js        # Redux store configuration
-│   │   ├── cartSlice.js    # Cart state & actions
-│   │   └── orderSlice.js   # Order & discount state & actions
-│   ├── data/
-│   │   └── products.js     # Dummy product data
-│   ├── styles/             # CSS files
-│   │   ├── index.css
-│   │   ├── App.css
-│   │   ├── Header.css
-│   │   ├── ProductCard.css
-│   │   ├── ProductList.css
-│   │   └── Cart.css
-│   ├── App.js              # Main application component
-│   └── index.js            # Application entry point
-├── package.json
-└── README.md
-```
-
-## 🎯 How It Works
-
 ### Discount Coupon System
 
 1. **Automatic Generation**: Every nth order (default is 3) automatically generates a discount code
